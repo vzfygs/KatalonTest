@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://atos.net/en/')
+
+WebUI.click(findTestObject('Object Repository/Page_Atos  Home/button_Accept all cookies'))
+
+WebUI.click(findTestObject('Object Repository/Page_Atos  Home/a_Contact us'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe'), 
+    'Other', true)
+
+WebUI.setText(findTestObject('Object Repository/Page_Contact us - Atos/textarea__input_5'), 'hello world !')
+
+WebUI.setText(findTestObject('Object Repository/Page_Contact us - Atos/input__input_1'), 'pierre')
+
+WebUI.setText(findTestObject('Object Repository/Page_Contact us - Atos/input__input_10'), 'tutu')
+
+WebUI.setText(findTestObject('Object Repository/Page_Contact us - Atos/input__input_4'), 'pierre.')
+
+WebUI.setText(findTestObject('Object Repository/Page_Contact us - Atos/input__input_20'), '')
+
+WebUI.setText(findTestObject('Object Repository/Page_Contact us - Atos/input__input_4'), 'pierre.zahlen@hotmail.com')
+
+WebUI.click(findTestObject('Object Repository/Page_Contact us - Atos/input__input_7.1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1'))
+
