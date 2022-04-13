@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+First Test,Chrome 100.0.4896.88,,,2022-04-13 08:48:19,2022-04-13 08:48:48,"28,928s",PASSED
+,,,,,,,
+Test Cases/Mes Tests/First Test Case,Chrome 100.0.4896.88,,,2022-04-13 08:48:19,2022-04-13 08:48:34,"14,919s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.88,,,2022-04-13 08:48:20,2022-04-13 08:48:23,"3,725s",PASSED
+"navigateToUrl(""https://atos.net/en/"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:23,2022-04-13 08:48:24,"0,611s",PASSED
+"click(findTestObject(""Object Repository/Page_Atos  Home/button_Accept all cookies""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:24,2022-04-13 08:48:25,"0,916s",PASSED
+"click(findTestObject(""Object Repository/Page_Atos  Home/a_Contact us""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:25,2022-04-13 08:48:26,"1,141s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe""), ""Other"", true)",Chrome 100.0.4896.88,,,2022-04-13 08:48:26,2022-04-13 08:48:28,"2,039s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/textarea__input_5""), ""hello world !"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:28,2022-04-13 08:48:29,"0,930s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_1""), ""pierre"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:29,2022-04-13 08:48:30,"0,789s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_10""), ""tutu"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:30,2022-04-13 08:48:31,"0,866s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_4""), ""pierre."")",Chrome 100.0.4896.88,,,2022-04-13 08:48:31,2022-04-13 08:48:32,"0,866s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_20""), """")",Chrome 100.0.4896.88,,,2022-04-13 08:48:32,2022-04-13 08:48:32,"0,858s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_4""), ""pierre.zahlen@hotmail.com"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:32,2022-04-13 08:48:33,"0,880s",PASSED
+"click(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_7.1""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:33,2022-04-13 08:48:34,"0,343s",PASSED
+"click(findTestObject(""Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:34,2022-04-13 08:48:34,"0,578s",PASSED
+,,,,,,,
+Test Cases/Mes Tests/First Test Case,Chrome 100.0.4896.88,,,2022-04-13 08:48:34,2022-04-13 08:48:48,"13,728s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.88,,,2022-04-13 08:48:34,2022-04-13 08:48:37,"2,510s",PASSED
+"navigateToUrl(""https://atos.net/en/"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:37,2022-04-13 08:48:37,"0,609s",PASSED
+"click(findTestObject(""Object Repository/Page_Atos  Home/button_Accept all cookies""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:37,2022-04-13 08:48:39,"1,256s",PASSED
+"click(findTestObject(""Object Repository/Page_Atos  Home/a_Contact us""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:39,2022-04-13 08:48:40,"1,410s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe""), ""Other"", true)",Chrome 100.0.4896.88,,,2022-04-13 08:48:40,2022-04-13 08:48:42,"1,910s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/textarea__input_5""), ""hello world !"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:42,2022-04-13 08:48:43,"0,873s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_1""), ""pierre"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:43,2022-04-13 08:48:44,"0,867s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_10""), ""tutu"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:44,2022-04-13 08:48:44,"0,754s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_4""), ""pierre."")",Chrome 100.0.4896.88,,,2022-04-13 08:48:44,2022-04-13 08:48:45,"0,870s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_20""), """")",Chrome 100.0.4896.88,,,2022-04-13 08:48:45,2022-04-13 08:48:46,"0,858s",PASSED
+"setText(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_4""), ""pierre.zahlen@hotmail.com"")",Chrome 100.0.4896.88,,,2022-04-13 08:48:46,2022-04-13 08:48:47,"0,872s",PASSED
+"click(findTestObject(""Object Repository/Page_Contact us - Atos/input__input_7.1""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:47,2022-04-13 08:48:47,"0,364s",PASSED
+"click(findTestObject(""Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1""))",Chrome 100.0.4896.88,,,2022-04-13 08:48:47,2022-04-13 08:48:48,"0,562s",PASSED

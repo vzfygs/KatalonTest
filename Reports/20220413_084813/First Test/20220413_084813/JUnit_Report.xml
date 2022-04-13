@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="First Test" time="28.928" tests="2" failures="0" errors="0">
+   <testsuite name="First Test" tests="2" failures="0" errors="0" time="28.928" skipped="0" timestamp="2022-04-13 08:48:19" hostname="A503287 - DESKTOP-5SKS4OF" id="Test Suites/First Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\A503287\\git\\KatalonTest\\Reports\\20220413_084813\\First Test\\20220413_084813"/>
+         <property name="logFiles" value="C:\\Users\\A503287\\git\\KatalonTest\\Reports\\20220413_084813\\First Test\\20220413_084813\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="A503287 - DESKTOP-5SKS4OF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 100.0.4896.88"/>
+         <property name="hostAddress" value="192.168.1.62"/>
+         <property name="sessionId" value="cb05e3cd35beb95551dcaddc17d90083"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Mes Tests/First Test Case" time="14.919" classname="Test Cases/Mes Tests/First Test Case" status="PASSED">
+         <system-out><![CDATA[2022-04-13 08:48:19 - [TEST_CASE][PASSED] - Test Cases/Mes Tests/First Test Case: Test Cases/Mes Tests/First Test Case
+
+2022-04-13 08:48:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-13 08:48:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-13 08:48:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-13 08:48:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-13 08:48:23 - [TEST_STEP][PASSED] - navigateToUrl("https://atos.net/en/"): Navigate to 'https://atos.net/en/' successfully
+
+2022-04-13 08:48:24 - [MESSAGE][PASSED] - Navigate to 'https://atos.net/en/' successfully
+
+2022-04-13 08:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Atos  Home/button_Accept all cookies")): Object: 'Object Repository/Page_Atos  Home/button_Accept all cookies' is clicked on
+
+2022-04-13 08:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Atos  Home/button_Accept all cookies' is clicked on
+
+2022-04-13 08:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Atos  Home/a_Contact us")): Object: 'Object Repository/Page_Atos  Home/a_Contact us' is clicked on
+
+2022-04-13 08:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Atos  Home/a_Contact us' is clicked on
+
+2022-04-13 08:48:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe"), "Other", true): All options with value 'Other' are selected in object 'Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe'  using regular expression
+
+2022-04-13 08:48:28 - [MESSAGE][PASSED] - All options with value 'Other' are selected in object 'Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe'  using regular expression
+
+2022-04-13 08:48:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/textarea__input_5"), "hello world !"): Text 'hello world !' is set on object 'Object Repository/Page_Contact us - Atos/textarea__input_5'
+
+2022-04-13 08:48:29 - [MESSAGE][PASSED] - Text 'hello world !' is set on object 'Object Repository/Page_Contact us - Atos/textarea__input_5'
+
+2022-04-13 08:48:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_1"), "pierre"): Text 'pierre' is set on object 'Object Repository/Page_Contact us - Atos/input__input_1'
+
+2022-04-13 08:48:30 - [MESSAGE][PASSED] - Text 'pierre' is set on object 'Object Repository/Page_Contact us - Atos/input__input_1'
+
+2022-04-13 08:48:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_10"), "tutu"): Text 'tutu' is set on object 'Object Repository/Page_Contact us - Atos/input__input_10'
+
+2022-04-13 08:48:31 - [MESSAGE][PASSED] - Text 'tutu' is set on object 'Object Repository/Page_Contact us - Atos/input__input_10'
+
+2022-04-13 08:48:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_4"), "pierre."): Text 'pierre.' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:32 - [MESSAGE][PASSED] - Text 'pierre.' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_20"), ""): Text '' is set on object 'Object Repository/Page_Contact us - Atos/input__input_20'
+
+2022-04-13 08:48:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Contact us - Atos/input__input_20'
+
+2022-04-13 08:48:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_4"), "pierre.zahlen@hotmail.com"): Text 'pierre.zahlen@hotmail.com' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:33 - [MESSAGE][PASSED] - Text 'pierre.zahlen@hotmail.com' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact us - Atos/input__input_7.1")): Object: 'Object Repository/Page_Contact us - Atos/input__input_7.1' is clicked on
+
+2022-04-13 08:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - Atos/input__input_7.1' is clicked on
+
+2022-04-13 08:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1")): Object: 'Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1' is clicked on
+
+2022-04-13 08:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mes Tests/First Test Case" time="13.728" classname="Test Cases/Mes Tests/First Test Case" status="PASSED">
+         <system-out><![CDATA[2022-04-13 08:48:34 - [TEST_CASE][PASSED] - Test Cases/Mes Tests/First Test Case: Test Cases/Mes Tests/First Test Case
+
+2022-04-13 08:48:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-13 08:48:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-13 08:48:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-13 08:48:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-13 08:48:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-13 08:48:37 - [TEST_STEP][PASSED] - navigateToUrl("https://atos.net/en/"): Navigate to 'https://atos.net/en/' successfully
+
+2022-04-13 08:48:37 - [MESSAGE][PASSED] - Navigate to 'https://atos.net/en/' successfully
+
+2022-04-13 08:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Atos  Home/button_Accept all cookies")): Object: 'Object Repository/Page_Atos  Home/button_Accept all cookies' is clicked on
+
+2022-04-13 08:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Atos  Home/button_Accept all cookies' is clicked on
+
+2022-04-13 08:48:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Atos  Home/a_Contact us")): Object: 'Object Repository/Page_Atos  Home/a_Contact us' is clicked on
+
+2022-04-13 08:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Atos  Home/a_Contact us' is clicked on
+
+2022-04-13 08:48:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe"), "Other", true): All options with value 'Other' are selected in object 'Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe'  using regular expression
+
+2022-04-13 08:48:42 - [MESSAGE][PASSED] - All options with value 'Other' are selected in object 'Object Repository/Page_Contact us - Atos/select_Please selectNew Solution or Service_1d78fe'  using regular expression
+
+2022-04-13 08:48:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/textarea__input_5"), "hello world !"): Text 'hello world !' is set on object 'Object Repository/Page_Contact us - Atos/textarea__input_5'
+
+2022-04-13 08:48:43 - [MESSAGE][PASSED] - Text 'hello world !' is set on object 'Object Repository/Page_Contact us - Atos/textarea__input_5'
+
+2022-04-13 08:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_1"), "pierre"): Text 'pierre' is set on object 'Object Repository/Page_Contact us - Atos/input__input_1'
+
+2022-04-13 08:48:44 - [MESSAGE][PASSED] - Text 'pierre' is set on object 'Object Repository/Page_Contact us - Atos/input__input_1'
+
+2022-04-13 08:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_10"), "tutu"): Text 'tutu' is set on object 'Object Repository/Page_Contact us - Atos/input__input_10'
+
+2022-04-13 08:48:44 - [MESSAGE][PASSED] - Text 'tutu' is set on object 'Object Repository/Page_Contact us - Atos/input__input_10'
+
+2022-04-13 08:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_4"), "pierre."): Text 'pierre.' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:45 - [MESSAGE][PASSED] - Text 'pierre.' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_20"), ""): Text '' is set on object 'Object Repository/Page_Contact us - Atos/input__input_20'
+
+2022-04-13 08:48:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Contact us - Atos/input__input_20'
+
+2022-04-13 08:48:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Contact us - Atos/input__input_4"), "pierre.zahlen@hotmail.com"): Text 'pierre.zahlen@hotmail.com' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:47 - [MESSAGE][PASSED] - Text 'pierre.zahlen@hotmail.com' is set on object 'Object Repository/Page_Contact us - Atos/input__input_4'
+
+2022-04-13 08:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact us - Atos/input__input_7.1")): Object: 'Object Repository/Page_Contact us - Atos/input__input_7.1' is clicked on
+
+2022-04-13 08:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - Atos/input__input_7.1' is clicked on
+
+2022-04-13 08:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1")): Object: 'Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1' is clicked on
+
+2022-04-13 08:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contact us - Atos/input_privacy policy_input_24.1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-13 08:48:19 - [TEST_SUITE][PASSED] - First Test: Test Cases/Mes Tests/First Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
